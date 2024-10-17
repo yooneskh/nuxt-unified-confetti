@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-unified-confetti",
+  "type": "module",
+  "version": "0.1.0",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "serve": "nuxt dev"
+  },
+  "devDependencies": {
+    "nuxt": "3.13.2",
+    "vue": "3.5.12"
+  },
+  "dependencies": {
+    "canvas-confetti": "1.9.3"
+  }
+}
