@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "main": "./nuxt.config.ts",
   "scripts": {
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "playground:build": "nuxt build playground"
   },
   "devDependencies": {
     "nuxt": "3.13.2",

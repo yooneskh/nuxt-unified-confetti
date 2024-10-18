@@ -10,8 +10,5 @@
   "devDependencies": {
     "nuxt": "3.13.2",
     "vue": "3.5.12"
-  },
-  "dependencies": {
-    "canvas-confetti": "1.9.3"
   }
 }
