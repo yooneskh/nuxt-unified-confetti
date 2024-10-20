@@ -1,5 +1,9 @@
 <script setup>
 
+onMounted(() => {
+  confettiOnPageSides(2000);
+});
+
 </script>
 
 
