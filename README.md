@@ -26,14 +26,12 @@ export default defineNuxtConfig({
 And you will be able to use these functions
 
 ```ts
-
 confettiOnPageSides(duration);
 confettiOnCenter(duration);
 confettiOnBottom(duration);
 confettiOnTop(duration);
 
 confettiCustomParade(duration, config);
-
 ```
 
 Or use this function and directly use the canvas-confetti
