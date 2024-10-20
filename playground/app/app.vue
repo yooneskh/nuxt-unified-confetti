@@ -1,5 +1,14 @@
 <script setup>
 
+useHead({
+  title: 'Unified Nuxt Confetti',
+});
+
+useSeoMeta({
+  description: 'Easily add confetti to your Nuxt app.',
+});
+
+
 onMounted(() => {
   confettiOnPageSides(2000);
 });
