@@ -6,12 +6,5 @@
   "scripts": {
     "postinstall": "nuxt prepare",
     "serve": "nuxt dev --port 8080"
-  },
-  "devDependencies": {
-    "nuxt": "3.13.2",
-    "vue": "3.5.12"
-  },
-  "dependencies": {
-    "unified-components": "0.6.17"
   }
 }
