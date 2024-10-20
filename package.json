@@ -5,7 +5,7 @@
   "main": "./nuxt.config.ts",
   "scripts": {
     "postinstall": "nuxt prepare",
-    "playground:build": "nuxt build playground"
+    "playground:build": "cd ./playground && nuxt build"
   },
   "devDependencies": {
     "nuxt": "3.13.2",
