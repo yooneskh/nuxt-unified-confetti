@@ -4,31 +4,47 @@
 
 
 <template>
-  <div style="text-align: center;">
+  <div class="min-h-screen flex flex-col items-center justify-center">
 
-    <h1>
+    <h1 class="text-2xl font-bold mb-6">
       Welcome to Unified Nuxt Confetti
     </h1>
-  
-    <button type="button" @click="confettiOnPageSides()" style="padding: 4px 16px; margin: 8px;">
-      On Page Sides
-    </button>
-  
-    <button type="button" @click="confettiOnPageSides(4000)" style="padding: 4px 16px; margin: 8px;">
-      On Page Sides Longer
-    </button>
 
-    <button type="button" @click="confettiOnCenter()" style="padding: 4px 16px; margin: 8px;">
-      On Center
-    </button>
-
-    <button type="button" @click="confettiOnBottom()" style="padding: 4px 16px; margin: 8px;">
-      On Bottom
-    </button>
-
-    <button type="button" @click="confettiOnTop()" style="padding: 4px 16px; margin: 8px;">
-      On Top
-    </button>
+    <div class="flex flex-col md:flex-row gap-2 w-full md:w-auto px-4">
+      <u-btn
+        label="On Page Sides"
+        class="justify-center"
+        :click-handler="() => confettiOnPageSides()"
+      />
+      <u-btn
+        label="On Page Sides Longer"
+        class="justify-center"
+        :click-handler="() => confettiOnPageSides(4000)"
+      />
+      <u-btn
+        label="On Center"
+        class="justify-center"
+        :click-handler="() => confettiOnCenter()"
+      />
+      <u-btn
+        label="On Bottom"
+        class="justify-center"
+        :click-handler="() => confettiOnBottom()"
+      />
+      <u-btn
+        label="On Top"
+        class="justify-center"
+        :click-handler="() => confettiOnTop()"
+      />
+    </div>
 
   </div>
 </template>
+
+
+<style>
+  :root {
+    color: theme('colors.on-surface');
+    background-color: theme('colors.surface');
+  }
+</style>

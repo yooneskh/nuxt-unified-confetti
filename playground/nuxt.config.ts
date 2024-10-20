@@ -7,5 +7,6 @@ export default defineNuxtConfig({
   },
   extends: [
     '../',
+    'unified-components',
   ],
 });
